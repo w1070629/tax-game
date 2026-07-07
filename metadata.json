@@ -1,6 +1,0 @@
-{
-  "name": "新北市政府稅捐稽徵處 - 使用牌照稅宣導樂園",
-  "description": "透過趣味互動遊戲，輕鬆學習使用牌照稅開徵、繳納方式、電動車優惠等實用稅務知識！",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}

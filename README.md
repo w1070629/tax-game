@@ -1,20 +1,24 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# tax-game
 
-# Run and deploy your AI Studio app
+A Vite + React app prepared for GitHub Pages deployment.
 
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/360202ae-5fb8-4786-bf02-0856691eb48f
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
+## Run locally
 
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+2. Start the development server:
    `npm run dev`
+
+## Deploy to GitHub Pages
+
+This repository includes a GitHub Actions workflow that builds and publishes the site to GitHub Pages automatically on every push to the `main` branch.
+
+### Required GitHub setting
+
+In GitHub, open Settings → Pages and choose "GitHub Actions" as the source.
+
+### Deploy URL
+
+Once published, the site will be available at:
+
+https://w1070629.github.io/tax-game/
